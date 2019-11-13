@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>THP - Week 7 - Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--  Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="../style/style.css" media="screen">
+
+
+  </head>
+
+  <body>
+  	<!-- Junbotron User -->
+  	<div class="jumbotron">
+  	  <h1 class="display-4"><%= @event.title %></h1>
+  	</br></br>
+  	  <p class="display-4"><%= @event.start_date.strftime("%h %d, %Y") %></p>
+  	</div>
+  	
+  </body>
+</html>
